@@ -8,8 +8,7 @@ server:
 spring:
    profiles: dev
    application:
-     name: microservicespringcloud-config-client
-     
+     name: microservicespringcloud-config-client  
 eureka:
   client:
     server-url:
@@ -20,9 +19,8 @@ server:
 spring:
    profiles: test
    application:
-     name: microservicespringcloud-config-client
-     
+     name: microservicespringcloud-config-client    
 eureka:
   client:
     server-url:
-      defaultZone: http://eureka-dev.com:7001/eureka/
+      defaultZone: http://eureka-test.com:7001/eureka/
